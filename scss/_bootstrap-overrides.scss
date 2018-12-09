@@ -19,6 +19,18 @@ a {
   }
 }
 
+.btn-primary-dark {
+  background-color: $primary-dark !important;
+  border-color: $primary-dark !important;
+  color: $white !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary-dark, 10%) !important;
+    border-color: darken($primary-dark, 10%) !important;
+  }
+}
+
 .btn-secondary {
   background-color: $secondary !important;
   border-color: $secondary !important;

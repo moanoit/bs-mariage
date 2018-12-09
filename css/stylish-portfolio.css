@@ -110,8 +110,13 @@ h6 {
 
 .masthead h1 {
   font-size: 4rem;
+  color: #bb1c1c;
   margin: 0;
   padding: 0;
+}
+
+.masthead h2 {
+  color: #bb1c1c;
 }
 
 @media (min-width: 992px) {
@@ -134,7 +139,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #bb1c1c;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -250,7 +255,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  background-color: rgba(236, 184, 7, 0.9);
+  background-color: rgba(187, 28, 28, 0.8);
   color: #fff;
   width: 75%;
   margin: auto 2rem 2rem;
@@ -278,7 +283,7 @@ h6 {
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    background-color: rgba(236, 184, 7, 0.9);
+    background-color: rgba(187, 28, 28, 0.9);
     -webkit-transition: opacity 0.25s;
     transition: opacity 0.25s;
     padding: 1rem;
@@ -345,15 +350,26 @@ a:hover, a:focus, a:active {
   border-color: #155d74 !important;
 }
 
+.btn-primary-dark {
+  background-color: #0a0877 !important;
+  border-color: #0a0877 !important;
+  color: #fff !important;
+}
+
+.btn-primary-dark:hover, .btn-primary-dark:focus, .btn-primary-dark:active {
+  background-color: #060547 !important;
+  border-color: #060547 !important;
+}
+
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #bb1c1c !important;
+  border-color: #bb1c1c !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+  background-color: #8f1515 !important;
+  border-color: #8f1515 !important;
 }
 
 .btn-dark {
@@ -375,5 +391,5 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #bb1c1c !important;
 }

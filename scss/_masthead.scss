@@ -10,10 +10,18 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  .title {
+
+    //background-color: fade-out($primary, 0.5);
+  }
   h1 {
     font-size: 4rem;
+    color: $secondary;
     margin: 0;
     padding: 0;
+  }
+  h2 {
+    color: $secondary;
   }
   @media (min-width: 992px) {
     height: 100vh;
