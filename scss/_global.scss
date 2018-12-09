@@ -15,8 +15,23 @@ body {
 
 // Content Section
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+// Content Section Small
+.content-section-small {
+  p {
+    font-size: 1rem;
+  }
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+// Content Section End
+.content-section-end {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .content-section-heading {
@@ -47,12 +62,6 @@ h6 {
 
 .map {
   height: 30rem;
-}
-
-@media(max-width: 992px) {
-  .map {
-    height: 75%;
-  }
 }
 
 .map iframe {

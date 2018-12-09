@@ -19,8 +19,22 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.content-section-small {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.content-section-small p {
+  font-size: 1rem;
+}
+
+.content-section-end {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .content-section-heading h2 {
@@ -48,12 +62,6 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
 }
 
 .map iframe {
@@ -204,24 +212,10 @@ h6 {
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
 .mariage {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  padding: 7.5rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bride-groom-love_4460x4460.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bride-groom-love_4460x4460.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -256,8 +250,11 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
+  background-color: rgba(236, 184, 7, 0.9);
   color: #fff;
+  width: 75%;
   margin: auto 2rem 2rem;
+  padding: 1rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -281,8 +278,11 @@ h6 {
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
+    background-color: rgba(236, 184, 7, 0.9);
     -webkit-transition: opacity 0.25s;
     transition: opacity 0.25s;
+    padding: 1rem;
+    width: 75%;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;

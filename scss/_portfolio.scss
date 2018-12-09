@@ -14,8 +14,11 @@
     bottom: 0;
     z-index: 1;
     .caption-content {
+      background-color: fade-out($secondary, 0.1);
       color: $white;
+      width: 75%;
       margin: auto 2rem 2rem;
+      padding: 1rem;
       h2 {
         font-size: 0.8rem;
         text-transform: uppercase;
@@ -34,7 +37,10 @@
       -webkit-clip-path: inset(0px);
       clip-path: inset(0px);
       .caption-content {
+        background-color: fade-out($secondary, 0.1);
         transition: opacity 0.25s;
+        padding: 1rem;
+        width: 75%;
         margin-left: 5rem;
         margin-right: 5rem;
         margin-bottom: 5rem;
